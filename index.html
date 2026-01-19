@@ -1,158 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayush Batham - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="dark">
+
+<body>
     <header>
-        <div class="container">
-            <nav>
-                <div class="logo">WEB DEVELOPER</div>
-                <div class="nav-links">
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                    <button class="theme-toggle" onclick="toggleTheme()">Dark</button>
-                </div>
-            </nav>
-        </div>
+        <nav>
+            <div class="logo">WEB DEVELOPER</div>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <h1>Ayush Batham</h1>
-                        <p class="subtitle">Pursuing Full-stack Web Dev • MERN | Next.js | MySQL</p>
-                        <p>I build clear, responsive websites and practical UI components. My focus is on readable code, fast performance and designs that scale across devices.</p>
-                    </div>
-                    <div class="hero-image">
-                        <img src="profile.jpg" alt="Ayush Batham">
-                    </div>
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Ayush Batham</h1>
+                <p class="subtitle">MERN Stack Developer</p>
+                <p>Enthusiastic MERN Stack Developer with hands-on experience in building front-end web
+                    applications. Eager to learn and contribute technical skills and creativity to a dynamic
+                    development team.</p>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Ayush Batham">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>I'm Ayush — a full-stack MERN developer who builds scalable, modern web applications. I specialize in turning
+            UI/UX ideas into clean, maintainable code and developing robust backend systems using MongoDB, Express,
+            React, and Node.js. From responsive frontends to secure APIs, I focus on writing efficient code and
+            continuously improving my craft as a full-stack engineer.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Political Party Website</h3>
+                <p>Developed an informational website highlighting party vision, leadership, and campaigns.</p>
+                <div class="project-links">
+                    <a href="https://pr-sarvasaktidal.pages.dev/" class="btn" target="_blank">Live Demo</a>
+                    <a href="https://github.com/IPSayush/pr-sarvasaktiDal" class="btn-secondary btn"
+                        target="_blank">GitHub</a>
                 </div>
             </div>
-        </section>
 
-        <section id="about">
-            <div class="container">
-                <h2>About</h2>
-                <p>I'm Ayush — a hands-on web developer who delivers static and interactive websites. I convert UI ideas into readable, maintainable code and keep learning server-side technologies to build full-stack solutions.</p>
-            </div>
-        </section>
-
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3>Static E-commerce Website</h3>
-                        <p>Responsive product listing and detail pages. Focus on accessibility and readable markup.</p>
-                        <div class="project-links">
-                            <a href="https://webbyayush.netlify.app/" class="btn">Live demo</a>
-                            <a href="https://github.com/IPSayush/Mili-s-Art" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Static Constructions Company</h3>
-                        <p>Brochure-style site for an information-first presentation. Clean hierarchy and responsive site.</p>
-                        <div class="project-links">
-                            <a href="https://construction-inc.netlify.app/" class="btn">Live demo</a>
-                            <a href="https://github.com/IPSayush/Construction-company" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <h3>Make Form Wothout Code</h3>
-                        <p>Stylish login UI prototype with demo flow. Intended for UI practice and small interaction patterns.</p>
-                        <div class="project-links">
-                            <a href="https://mellow-kleicha-6a2afc.netlify.app/" class="btn">Live demo</a>
-                            <a href="https://github.com/IPSayush/No-code-Form" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
+            <div class="project-card">
+                <h3>Romano & Daniels Construction Inc.</h3>
+                <p>Built a responsive business website showcasing services, projects, and contact details.</p>
+                <div class="project-links">
+                    <a href="https://webbyayush3.netlify.app/" class="btn" target="_blank">Live Demo</a>
+                    <a href="https://github.com/IPSayush/Construction-company" class="btn-secondary btn"
+                        target="_blank">GitHub</a>
                 </div>
             </div>
-        </section>
 
-        <section id="experience">
-            <div class="container">
-                <h2>Experience</h2>
-                <p>Meesho seller and small business owner (hand wood block printing). Freelance and personal web projects.</p>
-            </div>
-        </section>
-
-        <section id="skills">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="skills-grid">
-                    <span class="skill-tag">HTML</span>
-                    <span class="skill-tag">CSS</span>
-                    <span class="skill-tag">JavaScript</span>
-                    <span class="skill-tag">React</span>
-                    <span class="skill-tag">Next.js</span>
-                    <span class="skill-tag">Node.js</span>
-                    <span class="skill-tag">Express</span>
-                    <span class="skill-tag">MongoDB</span>
-                    <span class="skill-tag">MySQL</span>
+            <div class="project-card">
+                <h3>No Code Form</h3>
+                <p>Created a user-friendly form for efficient data collection and validation.</p>
+                <div class="project-links">
+                    <a href="https://webbyayush07.netlify.app/" class="btn" target="_blank">Live Demo</a>
+                    <a href="https://github.com/IPSayush/No-code-Form" class="btn-secondary btn"
+                        target="_blank">GitHub</a>
                 </div>
             </div>
-        </section>
 
-        <section id="education">
-            <div class="container">
-                <h2>Education</h2>
-                <p>12th Class — Higher secondary (Currently not pursuing graduation)</p>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h2>Contact</h2>
-                <div class="contact-list">
-                    <a href="https://github.com/IPSayush" class="contact-item" target="_blank">
-                        <strong>GitHub</strong>
-                        <span>github.com/IPSayush</span>
-                    </a>
-                    <a href="https://linkedin.com/in/ayush59a88b" class="contact-item" target="_blank">
-                        <strong>LinkedIn</strong>
-                        <span>in/ayush59a88b</span>
-                    </a>
-                    <a href="https://app.netlify.com/teams/ipsayush/projects" class="contact-item" target="_blank">
-                        <strong>Projects</strong>
-                        <span>On Netlify...</span>
-                    </a>
-                    <a href="mailto:ayushbatham34@gmail.com?subject=Quick%20Question&body=Hi%20Ayush,%0A%0A" class="contact-item" target="_blank">
-                        <strong>Mail Me</strong>
-                        <span>ayushbatham34@gmail.com</span>
-                    </a>
+            <div class="project-card">
+                <h3>Basic E-comerce Website</h3>
+                <p>Built a basic e-commerce site with dynamicly product listings and whatsapp order functionality.</p>
+                <div class="project-links">
+                    <a href="https://webbyayush.netlify.app/" class="btn" target="_blank">Live Demo</a>
+                    <a href="https://github.com/IPSayush/Mili-s-Art" class="btn-secondary btn"
+                        target="_blank">GitHub</a>
                 </div>
-                <!-- <p style="margin-top: 1.5rem;">Projects hosted on Netlify</p> -->
             </div>
-        </section>
-    </main>
+
+            <div class="project-card">
+                <h3>Signup & Login Template</h3>
+                <p>Built a MERN-based authentication system with user login, signup, and secure access handling.</p>
+                <div class="project-links">
+                    <a href="https://github.com/IPSayush/temp-auth-project-l" class="btn" target="_blank">Live Demo</a>
+                    <a href="https://github.com/IPSayush/temp-auth-project-l" class="btn-secondary btn"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Templates For Quick Websites</h3>
+                <p>Designed reusable, responsive templates for fast website deployment.</p>
+                <div class="project-links">
+                    <a href="https://github.com/IPSayush?tab=repositories" class="btn" target="_blank">Live Demo</a>
+                    <a href="https://github.com/IPSayush?tab=repositories" class="btn-secondary btn"
+                        target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Meesho seller and small business owner (hand wood block printing). Freelance and personal web projects.</p>
+    </section> -->
+
+    <section id="skills">
+        <h2>Languages & Technologies</h2>
+        <div class="skills-grid">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">Tailwind</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Netlify</span>
+            <span class="skill-tag">Vercel</span>
+            <span class="skill-tag">Cloudflare</span>
+            <span class="skill-tag">Next.js</span>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Higher Secondary Education (12th)
+            Focused on professional skill development in Web Development and MERN Stack.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-list">
+            <a href="https://github.com/IPSayush" class="contact-item" target="_blank">
+                <strong>GitHub</strong>
+                <span>github.com/IPSayush</span>
+            </a>
+            <a href="https://linkedin.com/in/ayush59a88b" class="contact-item" target="_blank">
+                <strong>LinkedIn</strong>
+                <span>in/ayush59a88b</span>
+            </a>
+            <a href="https://app.netlify.com/teams/ipsayush/projects" class="contact-item" target="_blank">
+                <strong>Projects</strong>
+                <span>On Netlify...</span>
+            </a>
+            <a href="mailto:ayushbatham34@gmail.com?subject=Quick%20Question&body=Hi%20Ayush,%0A%0A"
+                class="contact-item">
+                <strong>Email</strong>
+                <span>ayushbatham34@gmail.com</span>
+            </a>
+        </div>
+    </section>
 
     <footer>
-        <div class="container">
-            <p>© 2025 Ayush Batham —</p>
-        </div>
+        <p>© 2025 Ayush Batham</p>
     </footer>
-
-    <script>
-        function toggleTheme() {
-            const body = document.body;
-            const btn = document.querySelector('.theme-toggle');
-            
-            body.classList.toggle('dark');
-            
-            if (body.classList.contains('dark')) {
-                btn.textContent = 'Light';
-            } else {
-                btn.textContent = 'Dark';
-            }
-        }
-    </script>
 </body>
+
 </html>
